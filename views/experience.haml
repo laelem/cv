@@ -1,0 +1,155 @@
+- experience = I18n.t :experience
+%section#experience.section.rubric
+  %h2= @titles[:experience].split.join('<br />')
+  %nav
+    %ul
+      %li.link{data: {rub: "rub-career"}}>= experience[:career][:title]
+      %li.link{data: {rub: "rub-assignments"}}>= experience[:assignments][:title]
+      %li.link{data: {rub: "rub-technology_watch"}}>= experience[:technology_watch][:title]
+      %li.border
+  .contain
+    - career = experience[:career][:content]
+    %section#rub-career
+      %table
+        - career.each do |job|
+          %tr
+            %td.period= job['period']
+            %td.society= job['society']
+            %td.place= job['place']
+
+    - assignments = experience[:assignments][:content]
+    - mission_lang = experience[:assignments][:lang]
+    %section#rub-assignments
+      %nav
+        %ul
+          - assignments.each do |key, mission|
+            %li.link{data: {rub: "mission-#{key}"}}
+              = mission[:nav_title]
+              %em= mission[:nav_subtitle]
+      .contain
+        - assignments.each do |key, mission|
+          - dir_screen = File.join('public', 'image', 'screen', key.to_s)
+          - type = File.directory?(dir_screen) ? 'with_screen' : 'without_screen'
+          %div{id: "mission-#{key}", class: "mission #{type}"}
+            %header
+              %h3= mission[:title]
+              %h4= "#{mission[:mission_type]}, #{mission[:time]}"
+              - if @config['url'][key.to_s]
+                %aside
+                  - if @config['url'][key.to_s].is_a? String
+                    %a.button{href: @config['url'][key.to_s], target: "_blank"}= @lang[:visit]
+                  - else
+                    - @config['url'][key.to_s].each do |key_app, url|
+                      %a.button{href: url, target: "_blank"}= mission[:websites][key_app.to_sym]
+
+            %dl
+              %dt>= mission_lang[:app_type]
+              %dd>
+                %strong= mission[:app_type]
+
+              %dt>= mission_lang[:team]
+              %dd>= mission[:team]
+
+              %dt>= mission_lang[:technical_environnement]
+              %dd>
+                %strong= mission[:technical_environnement]
+
+              %dt>= mission_lang[:technologies]
+              %dd>
+                %strong= mission[:technologies]
+
+              - if mission[:methodo]
+                %dt>= mission_lang[:methodo]
+                %dd>= mission[:methodo]
+
+              %dt>= mission_lang[:problems]
+              %dd>= mission[:problems]
+
+            .contain
+              - if type == 'with_screen'
+                %section.slideshow
+                  %ul.bjqs
+                    - Dir.glob(File.join(dir_screen, '*')).each do |screen|
+                      %li
+                        %img{src: screen.gsub('public/', ''),
+                          width: "407", height: "298", alt: @lang[:alt_screen]}
+              %ul
+                - mission[:content].each do |item|
+                  %li= item
+        .clear
+
+    - technology_watch = experience[:technology_watch][:content]
+    %section#rub-technology_watch
+      %div
+        %h3= technology_watch[:online_cv][:title]
+        %aside
+          %a.button{href: @config['url']['online_cv']['github'], target: "_blank"}= @lang[:show_code]
+        %ul
+          - technology_watch[:online_cv][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:shared_directory][:title]
+        %h4= technology_watch[:shared_directory][:subtitle]
+        %aside
+          %a.button{href: @config['url']['shared_directory']['github'], target: "_blank"}= @lang[:show_code]
+          %a.button{href: @config['url']['shared_directory']['doc'], target: "_blank"}= @lang[:doc]
+          %a.button{href: @config['url']['shared_directory']['website'], target: "_blank"}= @lang[:visit]
+        %ul
+          - technology_watch[:shared_directory][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:sample_app][:title]
+        %h4= technology_watch[:sample_app][:subtitle]
+        %aside
+          %a.button{href: @config['url']['sample_app']['github'], target: "_blank"}= @lang[:show_code]
+          %a.button{href: @config['url']['sample_app']['website'], target: "_blank"}= @lang[:visit]
+        %ul
+          - technology_watch[:sample_app][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:tutorials_2013][:title]
+        %ul
+          - link = "<a href='#{@config['url']['rails_for_zombies']}' target='_blank'>#{@lang[:visit]}</a>"
+          %li= technology_watch[:tutorials_2013][:content][:rails_for_zombies].gsub('%{tutorial_link}', link)
+          - link = "<a href='#{@config['url']['rails_tutorial']}' target='_blank'>#{@lang[:visit]}</a>"
+          %li= technology_watch[:tutorials_2013][:content][:rails_tutorial].gsub('%{tutorial_link}', link)
+
+      %div
+        %h3= technology_watch[:books_2013][:title]
+        %ul
+          - technology_watch[:books_2013][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:game_of_life][:title]
+        %h4= technology_watch[:game_of_life][:subtitle]
+        %aside
+          %a.button{href: @config['url']['game_of_life']['github'], target: "_blank"}= @lang[:show_code]
+
+      %div
+        %h3= technology_watch[:books_2012][:title]
+        %ul
+          - technology_watch[:books_2012][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:ci_bootstrap][:title]
+        %h4= technology_watch[:ci_bootstrap][:subtitle]
+        %aside
+          %a.button{href: @config['url']['ci_bootstrap']['github'], target: "_blank"}= @lang[:show_code]
+
+        %ul
+          - technology_watch[:ci_bootstrap][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:smarty_jquery_ajax][:title]
+
+      %div
+        %h3= technology_watch[:formation_globalis][:title]
+        %ul
+          - technology_watch[:formation_globalis][:content].each do |item|
+            %li= item

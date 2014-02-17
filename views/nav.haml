@@ -1,0 +1,13 @@
+- nav = I18n.t :nav
+%nav#nav
+  %ul.main.nav
+    %li>
+      %a{href: "#intro"}= nav[:intro]
+    %li>
+      %a{href: "#education"}= nav[:education]
+    %li>
+      %a.two_lines{href: "#experience"}= nav[:experience].split.join('<br />')
+    %li>
+      %a.two_lines{href: "#skills"}= nav[:skills].split.join('<br />')
+    %li>
+      %a{href: "#hobbies"}= nav[:hobbies]

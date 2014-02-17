@@ -1,0 +1,59 @@
+email: lemen.laetitia@gmail.com
+note_max: 5
+
+url:
+  github: https://github.com/laelem
+  linkedin: http://fr.linkedin.com/in/laelem
+  rails_for_zombies: http://railsforzombies.org/
+  ci_bootstrap:
+    github: https://github.com/laelem/annuaire_bootstrap
+  sample_app:
+    website: https://laelem-sampleapp-railstutorial.herokuapp.com
+    github: https://github.com/laelem/sample_app
+  shared_directory:
+    website: http://laelem-shared-directory.herokuapp.com
+    github: https://github.com/laelem/shared_directory
+    doc: 'https://github.com/laelem/shared_directory#annuaire-partag%C3%A9'
+  game_of_life:
+    github: https://github.com/laelem/lifegame
+  online_cv:
+    github: https://github.com/laelem/cv
+  rails_for_zombies: http://railsforzombies.org/
+  rails_tutorial: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
+  aramisauto: http://reprise-illico.com/
+  rbi:
+    comundi: http://www.comundi.fr/
+    strategies: http://www.strategies.fr/emploi-formation/formations-conferences-strategies/
+    directions: http://directions.fr/Formations/
+  figaro: http://six-nations.sport24.com/
+
+path:
+  cv_pdf: doc/cv_web.pdf
+
+developed_with:
+  - Sinatra
+  - Haml
+  - Scss
+  - HTML5/CSS3
+  - jQuery
+  - Twitter Bootstrap
+  - Font Awesome
+  - Google Web Fonts
+  - Basic Jquery Slider
+
+browsers:
+  -
+    title: Firefox
+    img: firefox.jpg
+  -
+    title: Chrome
+    img: chrome.jpg
+  -
+    title: Safari
+    img: safari.jpg
+  -
+    title: Opera
+    img: opera.jpg
+  -
+    title: IE8+
+    img: ie.gif

@@ -1,0 +1,10 @@
+- hobbies =  I18n.t :hobbies
+%section#hobbies.section
+  %h2 hobbies
+  %ul.fa-ul
+    - hobbies.each do |item|
+      %li
+        %i.fa.fa-li.fa-chevron-circle-right
+        = item['title']
+        - if item['duration']
+          %em= ' - ' + item['duration']

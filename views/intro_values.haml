@@ -1,0 +1,14 @@
+- intro = I18n.t :intro
+%section#intro.section>
+  %h2= @titles[:intro]
+  %p= intro[:presentation]
+  - pdf_link = "<a href='#{@config['path']['cv_pdf']}' target='_blank'>#{intro[:pdf_label]}</a>"
+  %p= intro[:pdf].gsub('%{pdf_link}', pdf_link)
+  - email_link = "<a href='mailto:#{@config['email']}'>#{@config['email']}</a>"
+  %p= intro[:contact].gsub('%{email_link}', email_link)
+
+- values = I18n.t :values
+%section#values.section>
+  %h2= @titles[:values]
+  - values.each do |sentence|
+    %p= sentence

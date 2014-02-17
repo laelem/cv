@@ -1,0 +1,19 @@
+- header = I18n.t :header
+%header#header
+  .main
+    %section.presentation>
+      %h1 Laëtitia Le Men
+      %h2= header[:job]
+      %h2= header[:experience]
+      %div= header[:search_job]
+      %div= header[:availability]
+    %section.links>
+      %a.github{href: @config['url']['github'], target: "_blank"}
+      %a.linkedin{href: @config['url']['linkedin'], target: "_blank"}
+      %a.pdf{href: @config['path']['cv_pdf'], target: "_blank"}
+      %a.email{href: "mailto:#{@config['email']}"}
+    %aside
+      %a{href: "/fr"}
+        %img{src: "image/countries/fr.png", width: "40", height: "40", alt: "fr"}
+      %a{href: "/en"}
+        %img{src: "image/countries/en.png", width: "40", height: "40", alt: "en"}

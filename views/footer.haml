@@ -1,0 +1,4 @@
+- footer = I18n.t :footer
+%footer#footer
+  %p= footer[:last_update].gsub('%{date}', @config['last_update'])
+  %p= footer[:developed_with].gsub('%{tech}', @config['developed_with'].join(', '))

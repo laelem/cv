@@ -1,0 +1,9 @@
+#contain .main, #footer .main {
+  border-right: 1px solid #999999;
+  border-left: 1px solid #999999; }
+
+#footer .main {
+  border-bottom: 1px solid #999999; }
+
+#experience button:hover, #btn_top:hover {
+  background: #ff942b; }

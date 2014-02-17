@@ -1,0 +1,23 @@
+- skills = I18n.t :skills
+%section#skills.section.rubric
+  %h2= @titles[:skills].split.join('<br />')
+  %nav
+    %ul
+      - skills.each do |key_part, part|
+        %li.link{data: {rub: "rub-#{key_part}"}}>= skills[key_part.to_sym][:title]
+      %li.border
+  .contain
+    - skills.each do |key_part, part|
+      %section{id: "rub-#{key_part}"}
+        - part[:content].each do |categ|
+          %div>
+            %table
+              %caption= categ['title']
+              - categ['content'].each do |key_item, item|
+                %tr
+                  %td= item
+                  %td
+                    - @skills[key_item].times do
+                      %i.fa.fa-circle
+                    - (@config['note_max'] - @skills[key_item]).times do
+                      %i.fa.fa-circle-o

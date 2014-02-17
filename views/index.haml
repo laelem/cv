@@ -1,0 +1,13 @@
+- @titles = I18n.t :title
+- @lang = I18n.t :common
+= haml :header
+= haml :nav
+%section#contain.main
+  = haml :intro_values
+  = haml :education
+  = haml :experience
+  = haml :skills
+  = haml :hobbies
+  = haml :footer
+%button#btn_top{type: "button"}
+  %i.fa.fa-arrow-up

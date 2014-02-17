@@ -1,0 +1,9 @@
+- education = I18n.t :education
+%section#education.section
+  %h2= @titles[:education]
+  %table
+    - education.each do |formation|
+      %tr
+        %td.period= formation['period']
+        %td.degree= formation['degree']
+        %td.institution= formation['institution']
