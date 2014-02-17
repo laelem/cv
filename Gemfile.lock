@@ -67,7 +67,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 4.0.0)
   haml
   i18n
   jbuilder
