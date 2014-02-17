@@ -11,6 +11,7 @@ configure do
 end
 
 set :haml, format: :html5
+set :root, './'
 
 before do
   @skills = YAML.load_file('data/skills.yml')
