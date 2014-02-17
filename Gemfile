@@ -1,8 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
-#ruby-gemset=cv
-
-# Micro-framework
 gem 'sinatra'
 
 # Use SCSS for stylesheets
