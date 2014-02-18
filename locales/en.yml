@@ -1,9 +1,9 @@
 en:
-  common:
-    show_code: Source code
-    visit: Visit website
-    doc: Documentation
-    alt_screen: missing image
+  # common:
+  #   show_code: Source code
+  #   visit: Visit website
+  #   doc: Documentation
+  #   alt_screen: missing image
 
   header:
     job: Web developer
@@ -26,464 +26,464 @@ en:
     skills: Technical skills
     hobbies: Hobbies
 
-  intro:
-    presentation: "Welcome to my online resume. Through this site, I present to you my career, the evaluation of my technical skills and a description of some of my missions."
-    pdf: "You also have access to a more concise %{pdf_link}."
-    pdf_label: PDF version
-    contact: "If my profile interests you for the award of a <strong>permanent position in Ruby web tehnologies around Lyon </strong>, thank you to contact me by mail at the following address: %{email_link}"
+  # intro:
+  #   presentation: "Welcome to my online resume. Through this site, I present to you my career, the evaluation of my technical skills and a description of some of my missions."
+  #   pdf: "You also have access to a more concise %{pdf_link}."
+  #   pdf_label: PDF version
+  #   contact: "If my profile interests you for the award of a <strong>permanent position in Ruby web tehnologies around Lyon </strong>, thank you to contact me by mail at the following address: %{email_link}"
 
-  values:
-    - "<strong>After more than three years of experience</strong> work, I could integrate <strong>many companies</strong> and work with people with diverse and varied profiles."
-    - "Web is a <strong>vast universe</strong> I do not get tired of exploring. I enjoy perfecting my culture in <strong>new technologies</strong> that fascinate me by their diversity. The challenges of web are becoming more and I aspire to participate in <strong>innovative projects</strong>."
-    - "I expect an environment where I could learn, create, innovate, share, discover... because the web is first and foremost a <strong>human adventure</strong> !"
+  # values:
+  #   - "<strong>After more than three years of experience</strong> work, I could integrate <strong>many companies</strong> and work with people with diverse and varied profiles."
+  #   - "Web is a <strong>vast universe</strong> I do not get tired of exploring. I enjoy perfecting my culture in <strong>new technologies</strong> that fascinate me by their diversity. The challenges of web are becoming more and I aspire to participate in <strong>innovative projects</strong>."
+  #   - "I expect an environment where I could learn, create, innovate, share, discover... because the web is first and foremost a <strong>human adventure</strong> !"
 
-  education:
-    -
-      period: '2008-2010'
-      degree: '<strong>DUT Data Processing</strong> - Computer Engineering Option'
-      institution: 'I.U.T. Paris Descartes <br />I.U.T. of Montreuil (77)'
-    -
-      period: '2008'
-      degree: '<strong>Bachelor of science</strong> - With mention'
-      institution: Meaux (77)
-
-
-  skills:
-    development:
-      title: Development
-      content:
-        -
-          title: Systems
-          content:
-            windows_linux: 'Windows, Linux'
-            unix_shell: Unix Shell
-            apache: Apache web server
-        -
-          title: Languages
-          content:
-            ruby: Ruby
-            python: Python
-            php: PHP4 / PHP5
-            sql: SQL
-            js_ajax: 'Javascript, Ajax'
-            xml: XML
-            yml: YAML
-            java_c_cplusplus: 'Java, C, C++'
-        -
-          title: Databases
-          content:
-            postgresql: 'PostgreSQL, PgAdmin'
-            mysql: 'MySQL, PhpMyAdmin'
-            mssql: MS-SQL
-        -
-          title: Frameworks
-          content:
-            ror: Ruby on Rails
-            sinatra: Sinatra
-            django: Django
-            ci_carbone: 'CodeIgniter, Carbone'
-            symfony: Symfony 1.4 / 2.1
-            zend: Zend Framework
-        -
-          title: Tests
-          content:
-            rspec: Rspec
-            cucumber: CuCumber
-        -
-          title: CMS
-          content:
-            wordpress: Wordpress
-            drupal_spip: 'Drupal, Spip'
-
-    integration:
-      title: Integration
-      content:
-        -
-          title: Languages
-          content:
-            html4css2: HTML4 / CSS2
-            html5css3: HTML5 / CSS3
-            haml: HAML
-            sass_less: 'SCSS, Less'
-        -
-          title: Libraries
-          content:
-            jquery: Jquery
-            bootstrap: Twitter Bootstrap
-            flexigrid: Flexigrid
-        -
-          title: Templating
-          content:
-            smarty_twig: 'Smarty, Twig'
-
-    other:
-      title: Other
-      content:
-        -
-          title: Versionning
-          content:
-            git: Git
-            svn: SVN
-        -
-          title: Project management
-          content:
-            redmine_mingle: 'Redmine, Mingle'
-            mantis_bugreport: 'Mantis, Bugreport'
-        -
-          title: Tools
-          content:
-            heroku: Heroku
-            factorygirl: FactoryGirl
-            faker: Faker
-            filezilla: Filezilla
-            teamviewer: Teamviewer
-        -
-          title: Processing software
-          content:
-            office: Office suite
-            photoshop: 'Photohop, Gimp'
-        -
-          title: Foreign languages
-          content:
-            english: English
-            spanish: Spanish
-
-  experience:
-    career:
-      title: Career
-      content:
-        -
-          period: 'July 2010 - October 2013'
-          society: '<strong>Globalis media systems</strong> - SSII<br />Position : PHP Web Developer'
-          place: Paris
-        -
-          period: 'April - June 2010'
-          society: "<strong>ARDEX</strong> - Cosmetics manufacturer<br />Internship: development of an inventory management tool"
-          place: Meaux (77)
-
-    assignments:
-      title: Assignments
-      lang:
-        app_type: Type
-        team: Team
-        technical_environnement: Technical platform
-        technologies: Practiced technologies
-        methodo: Methodology
-        problems: Difficulties
-      content:
-        bouygues:
-          nav_title: Bouygues Télécom
-          nav_subtitle: Telecommunications
-          title: Evolution of a B2B portal<br />intended for large account customers
-          mission_type: On-site
-          time: 5 months
-          app_type: Back office
-          team: 'A functional project manager, a technical project manager, a web-designer'
-          technical_environnement: 'Lamp, Symfony 2.2'
-          technologies: 'Symfony 2.2, SVN, Twig, Webservices, Jquery, Ajax'
-          problems: "Adaptation to strict and inflexible protocols widely deployed in the enterprise."
-          content:
-            - "Evolution d'un portail B2B permettant à des clients grand compte de gérer leur parc téléphonique."
-            - "Création d'un parcours de commande de différents services avec gestion d'un panier."
-            - "Développement de nombreuses fonctionnalités permettant aux internautes de créer différentes demandes, traitées ensuite manuellement via une interface destinée au service chargé de traiter ces demandes."
-            - "Enrichissement de l'interface d'administration dédiée au paramétrage et à la personnalisation graphique du portail B2B."
-
-        aramisauto:
-          nav_title: Aramisauto
-          nav_subtitle: Automotive distributor
-          title: Intégration d'un site de reprise de voitures
-          mission_type: On-site
-          time: 20 days
-          app_type: Front office
-          team: 'A functional project manager, a technical project manager, a developer, a web-designer'
-          technical_environnement: 'Lamp, Symfony 2.1, Doctrine'
-          technologies: 'HTML5/CSS3, jQuery, jQuery UI, Twig, Less, Leanback Player'
-          problems: Adaptation to the work environment
-          content:
-            - "Intégration HTML5/CSS3 compatible IE7+ avec dégradation gracieuse via commentaires conditionnels"
-            - "Utilisation des ombres, bords arrondis et dégradés"
-            - "Utilisation d'une police personnalisée"
-            - "Insertion de vidéo HTML5 avec le plugin Leanback Player"
-            - "Réalisation d'une carte de france interractive sur laquelle sont positionnés les liens vers les différentes agences de la société"
-            - "Intégration de mails dynamiques et de popups"
-
-        fabrique:
-          nav_title: La Fabrique du Design
-          nav_subtitle: Visual communication
-          title: "Development of interactive calendars to organize<br />events related to forest certification"
-          mission_type: On-site
-          time: 2 weeks
-          app_type: Back office
-          team: "In tandem with the lead developer and supervised by a project manager"
-          technical_environnement: "Wamp, Zend Framework"
-          technologies: "WAMP, MySQL, HTML, CSS, plugin jQuery iCalendar, Zend Framework"
-          problems: "the graphical representation of an event on a calendar"
-          content:
-            - "Réalisation d'un calendrier listant différentes obligations par thèmes/sous-thèmes selon plusieurs vues : par mois, par année ou la totalité sur 2012-2016"
-            - "Gestion de la pagination et du design sur plusieurs navigateurs et résolutions d'écran"
-            - "Affichage de tranches horaires cliquables correspondant aux évènements"
-            - "Développement d'un autre calendrier présentant des évènements ponctuels marqués par un trait rouge, auxquels sont assignés une tolérance de délai"
-            - "Utilisation de fonctions Datetime avancées pour la gestion de ces tolérances, positives ou négatives, exprimées en jour, mois ou année"
-            - "Gestion des évènements récurrents, tous les mois ou tous les ans"
-            - "Développement d'un formulaire permettant la modification des évènements"
-            - "Réalisation d'une fonction ajax au sein du formulaire pour permettre l'affichage direct de la date butoir en fonction de la date de référence et de la tolérance de délai saisies par l'utilisateur"
-            - "Utilisation d'un plugin jQuery pour l'ajout d'alertes google calendar pré-paramétrées avec les données de l'évènement"
-            - "Développement d'un module d'identification à l'aide d'un token passé en paramètre depuis un autre site"
-
-        onac:
-          nav_title: O.N.A.C.
-          nav_subtitle: Public administration
-          title: "Recovery of data import batchs<br />from Access files"
-          mission_type: On-site
-          time: 3 weeks
-          app_type: Batch
-          team: "Supervised by a project management"
-          technical_environnement: Wamp
-          technologies: "Smarty, PostgreSQL / PgAdmin III, Mantis"
-          problems: Handling many sensitive data
-          content:
-            - "Estimation du temps d'import de près d'une centaine de milliers d'enregistrements au total"
-            - "Transformation de bases access volumineuses en fichiers csv"
-            - "Réalisation de requêtes avec utilisation de fonctions spécifiques à postgreSQL, utilisant notamment les séquences"
-            - "Gestion de requêtes sur une base source et une base de destination pour un transfert de données sur l'un des imports, avec transfert de fichiers d'un serveur à un autre"
-            - "Sauvegarde et restauration de bases sous PgAdmin III"
-            - "Gestion des éventuelles fermetures de session du serveur pendant les imports"
-            - "Affichage des succès/erreurs pour chaque enregistrement en direct sur le terminal"
-            - "Gestion d'un fichier de log contenant les erreurs au format csv, consultable pendant l'import"
-            - "Utilisation de fonctions d'affichage Smarty"
-
-        profideo:
-          nav_title: Profideo
-          nav_subtitle: 'Banking & Insurance'
-          title: "Recovering a feature for the management<br />and dissemination of news list"
-          mission_type: On-site
-          time: 1 month
-          app_type: Back Office
-          team: "Supervised by a project management"
-          technical_environnement: "LAMP, Symfony 1.4, Propel"
-          technologies: "Symfony, Propel, HTML, CSS"
-          methodo: Scrum
-          problems: "Practice unknown framework and ORM"
-          content:
-            - "Conception préalable"
-            - "Migration de la BDD avec gestion des index et clés étrangères sous InnoDB"
-            - "Reprise de l'interface de gestion des listes de news en back office"
-            - "Système de filtrage automatique des news pour déterminer leur inclusion dans les listes"
-            - "Création d'une page de prévisualisation des listes de news"
-            - "Envoi des listes en front et par mail aux abonnés via un batch"
-            - "Reprise des abonnements utilisateur de l'ancien site"
-            - "Affichage des listes côté front"
-            - "Affichage d'une liste paginée des archives avec lien vers l'ancien site pour visualiser les plus anciennes."
-
-        rbi:
-          nav_title: R.B.I.
-          nav_subtitle: 'Edition, News, Training'
-          title: "Functional and graphical changes<br />in the training management system"
-          websites:
-            comundi: Comundi
-            directions: Directions
-            strategies: Stratégies
-          mission_type: On-site
-          time: "2,5 months"
-          app_type: "Front & Back Office"
-          team: In tandem with the project manager and in a complete autonomy during his leave
-          technical_environnement: LAMP
-          technologies: "HTML, CSS, MSSQL, Ajax"
-          problems: "Working on three parallel applications built with inappropriate technology and without the presence of a modular architecture"
-          content:
-            - "Modifications fonctionnelles, ergonomiques et graphiques diverses sur l’ensemble des sites ainsi que le Back Office Comundi"
-            - "Mise en place de “landing pages” adaptées à chacune des chartes graphiques"
-            - "Intégration de vidéos à l’aide d’identifiants DailyMotion"
-            - "Création de requêtes SQL complexes"
-            - "Évolutions liées au moteur de recherche FAST, outil géré par le responsable BDD"
-            - "Mise en place d’un système de génération automatique de devis"
-            - "Exportations de données en Back Office au format Excel"
-            - "Analyse du site Comundi : système mis en place en 2003 ayant subi de nombreuses évolutions le rendant complexe sans aucune maintenance du code"
-            - "Optimisation du code sur le Back Office, à mon initiative, en parallèle des évolutions demandées"
-
-        psa:
-          nav_title: PSA
-          nav_subtitle: Automaker
-          title: "Optimizing and securing a system<br />for sending newsletter"
-          mission_type: On-site
-          time: 3 days
-          app_type: Newsletter
-          team: "Supervised by a project manager"
-          technical_environnement: "LAMP, framework Carbone"
-          technologies: "SQL, Cron"
-          problems: "Short time, significant risks of unwanted mail sending"
-          content:
-            - "Mise en place d’un processus d’envois à un petit nombre de destinataires à intervalles réguliers afin d’éviter une surcharge du serveur SMTP"
-            - "Ajout d’un système de suivi permettant de connaître la liste des destinataires n’ayant pas reçu la newsletter en fin de traitement et de la leur envoyer d’un simple clic"
-
-        daaf:
-          nav_title: DAAF Protection
-          nav_subtitle: Sale of smoke detectors
-          title: "Corporate WordPress website"
-          mission_type: Flat fee
-          time: 7 days
-          app_type: Front office
-          team: In complete autonomy
-          technical_environnement: Wordpress
-          technologies: "WordPress, SQL, HTML, CSS, jQuery, Gandi"
-          problems: "Short time, support all stages of development of the site on my own"
-          content:
-            - "Conception technique et graphique à partir de maquettes"
-            - "Utilisation d’un plugin permettant d’effectuer un zoom sur les produits"
-            - "Intégration XHTML/CSS à partir d’un thème existant"
-            - "Mise en place d’un système de référencement personnalisable"
-            - "Recherche de l’hébergement et mise en production"
-            - "Formation du client au système de gestion de contenu Wordpress"
-
-        figaro:
-          nav_title: Le Figaro / Sport24
-          nav_subtitle: Sports Press
-          title: "Development of an interactive headband and graphical overhaul"
-          mission_type: On-site
-          time: 5 days
-          app_type: Front office
-          team: "Supervised by a project manager"
-          technical_environnement: "LAMP, framework Carbone"
-          technologies: "jQuery, HTML, CSS, GIT"
-          problems: "Short time, complex css positioning"
-          content:
-            - Réalisation d’un bandeau interactif en jQuery par lequel l’internaute voit défiler les résultats des matchs par journée à intervalle régulier
-            - Intégration HTML/CSS
-
-        curie:
-          nav_title: Institut Curie
-          nav_subtitle: Medical research
-          title: Evolutionary maintenance
-          mission_type: On-site
-          time: 5 days
-          app_type: Back office
-          team: "Supervised by a project manager"
-          technical_environnement: "LAMP, framework Carbone"
-          technologies: SQL
-          problems: Complex queries on a large database
-          content:
-            - "Maintenance corrective mineure, optimisation de requêtes SQL."
-
-        cnrs:
-          nav_title: CNRS
-          nav_subtitle: Scientific research
-          title: "Performing an extranet allowing<br />researchers to participate in a contest"
-          mission_type: Flat fee
-          time: 5 months
-          app_type: Back office
-          team: "A developer and a project manager"
-          technical_environnement: "LAMP, framework Carbone"
-          technologies: "HTML, CSS, SQL, SimpleXML, FPDF/TCPDF/UFPDF, jpgraph, jQuery, GIT"
-          problems: "Many unknown technologies, strict specifications"
-          content:
-            - "Réalisation de formulaires dynamiques en fonction de tables de paramétrage ou des saisies de l'utilisateur"
-            - "Développement de batchs d'import de données au format XML"
-            - "Aide à la mise en place d'un système de droits d'accès pour différentes populations d'utilisateurs"
-            - "Mise en place d'un module de téléchargement au format ZIP avec vérification du format au préalable"
-            - "Génération de documents au format PDF"
-            - "Réalisation de graphiques de statistiques"
-
-        digital:
-          nav_title: Digital Corporate
-          nav_subtitle: Events
-          title: "Making two registration sites fairs"
-          mission_type: On-site
-          time: 10 days
-          app_type: "Temporary front & Back office"
-          team: "Supervised by a project manager"
-          technical_environnement: "LAMP, framework Carbone"
-          technologies: "HTML, CSS, SQL, Excel, PHPMailer"
-          problems: "Short time, many changes specifications"
-          content:
-            - "Affichage dynamique du nombre de formulaires en fonction du nombre d’invités sélectionné"
-            - "Envoi de newsletters personnalisées en HTML"
-            - "Batch d’import de données au format CSV"
+  # education:
+  #   -
+  #     period: '2008-2010'
+  #     degree: '<strong>DUT Data Processing</strong> - Computer Engineering Option'
+  #     institution: 'I.U.T. Paris Descartes <br />I.U.T. of Montreuil (77)'
+  #   -
+  #     period: '2008'
+  #     degree: '<strong>Bachelor of science</strong> - With mention'
+  #     institution: Meaux (77)
 
 
-    technology_watch:
-      title: Technology watch
-      content:
-        online_cv:
-          title: My online resume - February 2014
-          content:
-            - "Developed with Sinatra, Jquery, Haml, Scss, HTML5/CSS3, Google Web Fonts"
-            - "Internationalization"
+  # skills:
+  #   development:
+  #     title: Development
+  #     content:
+  #       -
+  #         title: Systems
+  #         content:
+  #           windows_linux: 'Windows, Linux'
+  #           unix_shell: Unix Shell
+  #           apache: Apache web server
+  #       -
+  #         title: Languages
+  #         content:
+  #           ruby: Ruby
+  #           python: Python
+  #           php: PHP4 / PHP5
+  #           sql: SQL
+  #           js_ajax: 'Javascript, Ajax'
+  #           xml: XML
+  #           yml: YAML
+  #           java_c_cplusplus: 'Java, C, C++'
+  #       -
+  #         title: Databases
+  #         content:
+  #           postgresql: 'PostgreSQL, PgAdmin'
+  #           mysql: 'MySQL, PhpMyAdmin'
+  #           mssql: MS-SQL
+  #       -
+  #         title: Frameworks
+  #         content:
+  #           ror: Ruby on Rails
+  #           sinatra: Sinatra
+  #           django: Django
+  #           ci_carbone: 'CodeIgniter, Carbone'
+  #           symfony: Symfony 1.4 / 2.1
+  #           zend: Zend Framework
+  #       -
+  #         title: Tests
+  #         content:
+  #           rspec: Rspec
+  #           cucumber: CuCumber
+  #       -
+  #         title: CMS
+  #         content:
+  #           wordpress: Wordpress
+  #           drupal_spip: 'Drupal, Spip'
 
-        shared_directory:
-          title: Shared directory - January/February 2014
-          subtitle: "Watch project: development of a complete application allowing me to increase and demonstrate my Rails skills"
-          content:
-            - "Intranet avec gestion de rôles, formulaires complexes, CRUD, tris, filtres, pagination..."
+  #   integration:
+  #     title: Integration
+  #     content:
+  #       -
+  #         title: Languages
+  #         content:
+  #           html4css2: HTML4 / CSS2
+  #           html5css3: HTML5 / CSS3
+  #           haml: HAML
+  #           sass_less: 'SCSS, Less'
+  #       -
+  #         title: Libraries
+  #         content:
+  #           jquery: Jquery
+  #           bootstrap: Twitter Bootstrap
+  #           flexigrid: Flexigrid
+  #       -
+  #         title: Templating
+  #         content:
+  #           smarty_twig: 'Smarty, Twig'
 
-        sample_app:
-          title: "Simplified Twitter - October/November 2013"
-          subtitle: "Making the final application of the Ruby on Rails Tutorial by Michael Hartl"
-          content:
-            - "Apprentissage des bases de Rails : configuration, environnements, console, MVC, pipeline..."
-            - "Déploiement avec heroku et git"
-            - "Autentification développé manuellement"
-            - "Tests d'intégration avec Rspec, Cucumber, FactoryGirl, Faker, Guard"
-            - "Intégration avec Twitter bootstrap, Scss"
+  #   other:
+  #     title: Other
+  #     content:
+  #       -
+  #         title: Versionning
+  #         content:
+  #           git: Git
+  #           svn: SVN
+  #       -
+  #         title: Project management
+  #         content:
+  #           redmine_mingle: 'Redmine, Mingle'
+  #           mantis_bugreport: 'Mantis, Bugreport'
+  #       -
+  #         title: Tools
+  #         content:
+  #           heroku: Heroku
+  #           factorygirl: FactoryGirl
+  #           faker: Faker
+  #           filezilla: Filezilla
+  #           teamviewer: Teamviewer
+  #       -
+  #         title: Processing software
+  #         content:
+  #           office: Office suite
+  #           photoshop: 'Photohop, Gimp'
+  #       -
+  #         title: Foreign languages
+  #         content:
+  #           english: English
+  #           spanish: Spanish
 
-        tutorials_2013:
-          title: Tutorials - 2013
-          content:
-            rails_for_zombies: 'Rails for zombies - %{tutorial_link}'
-            rails_tutorial: 'Ruby on Rails tutorial, second edition - Michael Hartl - %{tutorial_link}'
+  # experience:
+  #   career:
+  #     title: Career
+  #     content:
+  #       -
+  #         period: 'July 2010 - October 2013'
+  #         society: '<strong>Globalis media systems</strong> - SSII<br />Position : PHP Web Developer'
+  #         place: Paris
+  #       -
+  #         period: 'April - June 2010'
+  #         society: "<strong>ARDEX</strong> - Cosmetics manufacturer<br />Internship: development of an inventory management tool"
+  #         place: Meaux (77)
 
-        books_2013:
-          title: Study books - 2013
-          content:
-            - 'Programming Ruby 1.9 & 2.0 - Dave Thomas - 2013'
-            - 'Pro Git - Scott Chacon - 2011'
-            - 'The Rspec Book - David Chelimsky - 2010'
+  #   assignments:
+  #     title: Assignments
+  #     lang:
+  #       app_type: Type
+  #       team: Team
+  #       technical_environnement: Technical platform
+  #       technologies: Practiced technologies
+  #       methodo: Methodology
+  #       problems: Difficulties
+  #     content:
+  #       bouygues:
+  #         nav_title: Bouygues Télécom
+  #         nav_subtitle: Telecommunications
+  #         title: Evolution of a B2B portal<br />intended for large account customers
+  #         mission_type: On-site
+  #         time: 5 months
+  #         app_type: Back office
+  #         team: 'A functional project manager, a technical project manager, a web-designer'
+  #         technical_environnement: 'Lamp, Symfony 2.2'
+  #         technologies: 'Symfony 2.2, SVN, Twig, Webservices, Jquery, Ajax'
+  #         problems: "Adaptation to strict and inflexible protocols widely deployed in the enterprise."
+  #         content:
+  #           - "Evolution d'un portail B2B permettant à des clients grand compte de gérer leur parc téléphonique."
+  #           - "Création d'un parcours de commande de différents services avec gestion d'un panier."
+  #           - "Développement de nombreuses fonctionnalités permettant aux internautes de créer différentes demandes, traitées ensuite manuellement via une interface destinée au service chargé de traiter ces demandes."
+  #           - "Enrichissement de l'interface d'administration dédiée au paramétrage et à la personnalisation graphique du portail B2B."
 
-        game_of_life:
-          title: Game of life
-          subtitle: Developed in Python
+  #       aramisauto:
+  #         nav_title: Aramisauto
+  #         nav_subtitle: Automotive distributor
+  #         title: Intégration d'un site de reprise de voitures
+  #         mission_type: On-site
+  #         time: 20 days
+  #         app_type: Front office
+  #         team: 'A functional project manager, a technical project manager, a developer, a web-designer'
+  #         technical_environnement: 'Lamp, Symfony 2.1, Doctrine'
+  #         technologies: 'HTML5/CSS3, jQuery, jQuery UI, Twig, Less, Leanback Player'
+  #         problems: Adaptation to the work environment
+  #         content:
+  #           - "Intégration HTML5/CSS3 compatible IE7+ avec dégradation gracieuse via commentaires conditionnels"
+  #           - "Utilisation des ombres, bords arrondis et dégradés"
+  #           - "Utilisation d'une police personnalisée"
+  #           - "Insertion de vidéo HTML5 avec le plugin Leanback Player"
+  #           - "Réalisation d'une carte de france interractive sur laquelle sont positionnés les liens vers les différentes agences de la société"
+  #           - "Intégration de mails dynamiques et de popups"
 
-        books_2012:
-          title: Study books - 2012
-          content:
-            - 'PHP5 avancé, 6<sup>ème</sup> édition - Eric Daspet & Cyril Pierre De Geyer - Editions Eyrolles'
-            - 'CSS avancées, vers HTML 5 et CSS 3 - Raphaël Goetter - Editions Eyrolles'
+  #       fabrique:
+  #         nav_title: La Fabrique du Design
+  #         nav_subtitle: Visual communication
+  #         title: "Development of interactive calendars to organize<br />events related to forest certification"
+  #         mission_type: On-site
+  #         time: 2 weeks
+  #         app_type: Back office
+  #         team: "In tandem with the lead developer and supervised by a project manager"
+  #         technical_environnement: "Wamp, Zend Framework"
+  #         technologies: "WAMP, MySQL, HTML, CSS, plugin jQuery iCalendar, Zend Framework"
+  #         problems: "the graphical representation of an event on a calendar"
+  #         content:
+  #           - "Réalisation d'un calendrier listant différentes obligations par thèmes/sous-thèmes selon plusieurs vues : par mois, par année ou la totalité sur 2012-2016"
+  #           - "Gestion de la pagination et du design sur plusieurs navigateurs et résolutions d'écran"
+  #           - "Affichage de tranches horaires cliquables correspondant aux évènements"
+  #           - "Développement d'un autre calendrier présentant des évènements ponctuels marqués par un trait rouge, auxquels sont assignés une tolérance de délai"
+  #           - "Utilisation de fonctions Datetime avancées pour la gestion de ces tolérances, positives ou négatives, exprimées en jour, mois ou année"
+  #           - "Gestion des évènements récurrents, tous les mois ou tous les ans"
+  #           - "Développement d'un formulaire permettant la modification des évènements"
+  #           - "Réalisation d'une fonction ajax au sein du formulaire pour permettre l'affichage direct de la date butoir en fonction de la date de référence et de la tolérance de délai saisies par l'utilisateur"
+  #           - "Utilisation d'un plugin jQuery pour l'ajout d'alertes google calendar pré-paramétrées avec les données de l'évènement"
+  #           - "Développement d'un module d'identification à l'aide d'un token passé en paramètre depuis un autre site"
 
-        ci_bootstrap:
-          title: 'CodeIgniter & Twitter Bootstrap - 2012'
-          subtitle: "Watch project : development of a directory"
-          content:
-            - "Plusieurs types d'utilisateurs ayant différents droits"
-            - "Connexion, inscription"
-            - "Champs de formulaire dont l'upload"
-            - "Manipulation de données de type CRUD avec demande de validation lors de la suppression"
-            - "Tris et filtres"
-            - "Pagination"
+  #       onac:
+  #         nav_title: O.N.A.C.
+  #         nav_subtitle: Public administration
+  #         title: "Recovery of data import batchs<br />from Access files"
+  #         mission_type: On-site
+  #         time: 3 weeks
+  #         app_type: Batch
+  #         team: "Supervised by a project management"
+  #         technical_environnement: Wamp
+  #         technologies: "Smarty, PostgreSQL / PgAdmin III, Mantis"
+  #         problems: Handling many sensitive data
+  #         content:
+  #           - "Estimation du temps d'import de près d'une centaine de milliers d'enregistrements au total"
+  #           - "Transformation de bases access volumineuses en fichiers csv"
+  #           - "Réalisation de requêtes avec utilisation de fonctions spécifiques à postgreSQL, utilisant notamment les séquences"
+  #           - "Gestion de requêtes sur une base source et une base de destination pour un transfert de données sur l'un des imports, avec transfert de fichiers d'un serveur à un autre"
+  #           - "Sauvegarde et restauration de bases sous PgAdmin III"
+  #           - "Gestion des éventuelles fermetures de session du serveur pendant les imports"
+  #           - "Affichage des succès/erreurs pour chaque enregistrement en direct sur le terminal"
+  #           - "Gestion d'un fichier de log contenant les erreurs au format csv, consultable pendant l'import"
+  #           - "Utilisation de fonctions d'affichage Smarty"
 
-        smarty_jquery_ajax:
-          title: 'Smarty, jQuery, Ajax - 2011'
+  #       profideo:
+  #         nav_title: Profideo
+  #         nav_subtitle: 'Banking & Insurance'
+  #         title: "Recovering a feature for the management<br />and dissemination of news list"
+  #         mission_type: On-site
+  #         time: 1 month
+  #         app_type: Back Office
+  #         team: "Supervised by a project management"
+  #         technical_environnement: "LAMP, Symfony 1.4, Propel"
+  #         technologies: "Symfony, Propel, HTML, CSS"
+  #         methodo: Scrum
+  #         problems: "Practice unknown framework and ORM"
+  #         content:
+  #           - "Conception préalable"
+  #           - "Migration de la BDD avec gestion des index et clés étrangères sous InnoDB"
+  #           - "Reprise de l'interface de gestion des listes de news en back office"
+  #           - "Système de filtrage automatique des news pour déterminer leur inclusion dans les listes"
+  #           - "Création d'une page de prévisualisation des listes de news"
+  #           - "Envoi des listes en front et par mail aux abonnés via un batch"
+  #           - "Reprise des abonnements utilisateur de l'ancien site"
+  #           - "Affichage des listes côté front"
+  #           - "Affichage d'une liste paginée des archives avec lien vers l'ancien site pour visualiser les plus anciennes."
 
-        formation_globalis:
-          title: 'Tools and working methods of Globalis - 2 months'
-          content:
-            - "Protocoles de l’Internet, Apache, PHP, MySQL"
-            - "Méthodologie & techniques de programmation, standards W3C, framework"
-            - "Programmation de plusieurs projets tutorés"
-            - "Apprentissage de CMS tels que SPIP, Wordpress et Drupal"
-            - "Rédaction de documentation"
+  #       rbi:
+  #         nav_title: R.B.I.
+  #         nav_subtitle: 'Edition, News, Training'
+  #         title: "Functional and graphical changes<br />in the training management system"
+  #         websites:
+  #           comundi: Comundi
+  #           directions: Directions
+  #           strategies: Stratégies
+  #         mission_type: On-site
+  #         time: "2,5 months"
+  #         app_type: "Front & Back Office"
+  #         team: In tandem with the project manager and in a complete autonomy during his leave
+  #         technical_environnement: LAMP
+  #         technologies: "HTML, CSS, MSSQL, Ajax"
+  #         problems: "Working on three parallel applications built with inappropriate technology and without the presence of a modular architecture"
+  #         content:
+  #           - "Modifications fonctionnelles, ergonomiques et graphiques diverses sur l’ensemble des sites ainsi que le Back Office Comundi"
+  #           - "Mise en place de “landing pages” adaptées à chacune des chartes graphiques"
+  #           - "Intégration de vidéos à l’aide d’identifiants DailyMotion"
+  #           - "Création de requêtes SQL complexes"
+  #           - "Évolutions liées au moteur de recherche FAST, outil géré par le responsable BDD"
+  #           - "Mise en place d’un système de génération automatique de devis"
+  #           - "Exportations de données en Back Office au format Excel"
+  #           - "Analyse du site Comundi : système mis en place en 2003 ayant subi de nombreuses évolutions le rendant complexe sans aucune maintenance du code"
+  #           - "Optimisation du code sur le Back Office, à mon initiative, en parallèle des évolutions demandées"
 
-  hobbies:
-    -
-      title: "Learning music theory and piano in music school"
-      duration: 7 years
-    -
-      title: "Participation in a string orchestra"
-      duration: 2 years
-    -
-      title: Comic books
-    -
-      title: Cinema
+  #       psa:
+  #         nav_title: PSA
+  #         nav_subtitle: Automaker
+  #         title: "Optimizing and securing a system<br />for sending newsletter"
+  #         mission_type: On-site
+  #         time: 3 days
+  #         app_type: Newsletter
+  #         team: "Supervised by a project manager"
+  #         technical_environnement: "LAMP, framework Carbone"
+  #         technologies: "SQL, Cron"
+  #         problems: "Short time, significant risks of unwanted mail sending"
+  #         content:
+  #           - "Mise en place d’un processus d’envois à un petit nombre de destinataires à intervalles réguliers afin d’éviter une surcharge du serveur SMTP"
+  #           - "Ajout d’un système de suivi permettant de connaître la liste des destinataires n’ayant pas reçu la newsletter en fin de traitement et de la leur envoyer d’un simple clic"
+
+  #       daaf:
+  #         nav_title: DAAF Protection
+  #         nav_subtitle: Sale of smoke detectors
+  #         title: "Corporate WordPress website"
+  #         mission_type: Flat fee
+  #         time: 7 days
+  #         app_type: Front office
+  #         team: In complete autonomy
+  #         technical_environnement: Wordpress
+  #         technologies: "WordPress, SQL, HTML, CSS, jQuery, Gandi"
+  #         problems: "Short time, support all stages of development of the site on my own"
+  #         content:
+  #           - "Conception technique et graphique à partir de maquettes"
+  #           - "Utilisation d’un plugin permettant d’effectuer un zoom sur les produits"
+  #           - "Intégration XHTML/CSS à partir d’un thème existant"
+  #           - "Mise en place d’un système de référencement personnalisable"
+  #           - "Recherche de l’hébergement et mise en production"
+  #           - "Formation du client au système de gestion de contenu Wordpress"
+
+  #       figaro:
+  #         nav_title: Le Figaro / Sport24
+  #         nav_subtitle: Sports Press
+  #         title: "Development of an interactive headband and graphical overhaul"
+  #         mission_type: On-site
+  #         time: 5 days
+  #         app_type: Front office
+  #         team: "Supervised by a project manager"
+  #         technical_environnement: "LAMP, framework Carbone"
+  #         technologies: "jQuery, HTML, CSS, GIT"
+  #         problems: "Short time, complex css positioning"
+  #         content:
+  #           - Réalisation d’un bandeau interactif en jQuery par lequel l’internaute voit défiler les résultats des matchs par journée à intervalle régulier
+  #           - Intégration HTML/CSS
+
+  #       curie:
+  #         nav_title: Institut Curie
+  #         nav_subtitle: Medical research
+  #         title: Evolutionary maintenance
+  #         mission_type: On-site
+  #         time: 5 days
+  #         app_type: Back office
+  #         team: "Supervised by a project manager"
+  #         technical_environnement: "LAMP, framework Carbone"
+  #         technologies: SQL
+  #         problems: Complex queries on a large database
+  #         content:
+  #           - "Maintenance corrective mineure, optimisation de requêtes SQL."
+
+  #       cnrs:
+  #         nav_title: CNRS
+  #         nav_subtitle: Scientific research
+  #         title: "Performing an extranet allowing<br />researchers to participate in a contest"
+  #         mission_type: Flat fee
+  #         time: 5 months
+  #         app_type: Back office
+  #         team: "A developer and a project manager"
+  #         technical_environnement: "LAMP, framework Carbone"
+  #         technologies: "HTML, CSS, SQL, SimpleXML, FPDF/TCPDF/UFPDF, jpgraph, jQuery, GIT"
+  #         problems: "Many unknown technologies, strict specifications"
+  #         content:
+  #           - "Réalisation de formulaires dynamiques en fonction de tables de paramétrage ou des saisies de l'utilisateur"
+  #           - "Développement de batchs d'import de données au format XML"
+  #           - "Aide à la mise en place d'un système de droits d'accès pour différentes populations d'utilisateurs"
+  #           - "Mise en place d'un module de téléchargement au format ZIP avec vérification du format au préalable"
+  #           - "Génération de documents au format PDF"
+  #           - "Réalisation de graphiques de statistiques"
+
+  #       digital:
+  #         nav_title: Digital Corporate
+  #         nav_subtitle: Events
+  #         title: "Making two registration sites fairs"
+  #         mission_type: On-site
+  #         time: 10 days
+  #         app_type: "Temporary front & Back office"
+  #         team: "Supervised by a project manager"
+  #         technical_environnement: "LAMP, framework Carbone"
+  #         technologies: "HTML, CSS, SQL, Excel, PHPMailer"
+  #         problems: "Short time, many changes specifications"
+  #         content:
+  #           - "Affichage dynamique du nombre de formulaires en fonction du nombre d’invités sélectionné"
+  #           - "Envoi de newsletters personnalisées en HTML"
+  #           - "Batch d’import de données au format CSV"
+
+
+  #   technology_watch:
+  #     title: Technology watch
+  #     content:
+  #       online_cv:
+  #         title: My online resume - February 2014
+  #         content:
+  #           - "Developed with Sinatra, Jquery, Haml, Scss, HTML5/CSS3, Google Web Fonts"
+  #           - "Internationalization"
+
+  #       shared_directory:
+  #         title: Shared directory - January/February 2014
+  #         subtitle: "Watch project: development of a complete application allowing me to increase and demonstrate my Rails skills"
+  #         content:
+  #           - "Intranet avec gestion de rôles, formulaires complexes, CRUD, tris, filtres, pagination..."
+
+  #       sample_app:
+  #         title: "Simplified Twitter - October/November 2013"
+  #         subtitle: "Making the final application of the Ruby on Rails Tutorial by Michael Hartl"
+  #         content:
+  #           - "Apprentissage des bases de Rails : configuration, environnements, console, MVC, pipeline..."
+  #           - "Déploiement avec heroku et git"
+  #           - "Autentification développé manuellement"
+  #           - "Tests d'intégration avec Rspec, Cucumber, FactoryGirl, Faker, Guard"
+  #           - "Intégration avec Twitter bootstrap, Scss"
+
+  #       tutorials_2013:
+  #         title: Tutorials - 2013
+  #         content:
+  #           rails_for_zombies: 'Rails for zombies - %{tutorial_link}'
+  #           rails_tutorial: 'Ruby on Rails tutorial, second edition - Michael Hartl - %{tutorial_link}'
+
+  #       books_2013:
+  #         title: Study books - 2013
+  #         content:
+  #           - 'Programming Ruby 1.9 & 2.0 - Dave Thomas - 2013'
+  #           - 'Pro Git - Scott Chacon - 2011'
+  #           - 'The Rspec Book - David Chelimsky - 2010'
+
+  #       game_of_life:
+  #         title: Game of life
+  #         subtitle: Developed in Python
+
+  #       books_2012:
+  #         title: Study books - 2012
+  #         content:
+  #           - 'PHP5 avancé, 6<sup>ème</sup> édition - Eric Daspet & Cyril Pierre De Geyer - Editions Eyrolles'
+  #           - 'CSS avancées, vers HTML 5 et CSS 3 - Raphaël Goetter - Editions Eyrolles'
+
+  #       ci_bootstrap:
+  #         title: 'CodeIgniter & Twitter Bootstrap - 2012'
+  #         subtitle: "Watch project : development of a directory"
+  #         content:
+  #           - "Plusieurs types d'utilisateurs ayant différents droits"
+  #           - "Connexion, inscription"
+  #           - "Champs de formulaire dont l'upload"
+  #           - "Manipulation de données de type CRUD avec demande de validation lors de la suppression"
+  #           - "Tris et filtres"
+  #           - "Pagination"
+
+  #       smarty_jquery_ajax:
+  #         title: 'Smarty, jQuery, Ajax - 2011'
+
+  #       formation_globalis:
+  #         title: 'Tools and working methods of Globalis - 2 months'
+  #         content:
+  #           - "Protocoles de l’Internet, Apache, PHP, MySQL"
+  #           - "Méthodologie & techniques de programmation, standards W3C, framework"
+  #           - "Programmation de plusieurs projets tutorés"
+  #           - "Apprentissage de CMS tels que SPIP, Wordpress et Drupal"
+  #           - "Rédaction de documentation"
+
+  # hobbies:
+  #   -
+  #     title: "Learning music theory and piano in music school"
+  #     duration: 7 years
+  #   -
+  #     title: "Participation in a string orchestra"
+  #     duration: 2 years
+  #   -
+  #     title: Comic books
+  #   -
+  #     title: Cinema
 
   footer:
     last_update: "Last update : %{date}"
-    developed_with: "Devloped with : %{tech}"
+    developed_with: "Developed with : %{tech}"
 
