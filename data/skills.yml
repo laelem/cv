@@ -3,7 +3,7 @@ python:           2
 php:              4
 sql:              4
 xml:              2
-yml:              3
+yml:              4
 java_c_cplusplus: 2
 windows_linux:    2
 unix_shell:       3
@@ -23,7 +23,7 @@ html4css2:        5
 html5css3:        4
 haml:             5
 sass_less:        4
-js_ajax:          2
+js_ajax:          4
 jquery:           4
 bootstrap:        4
 flexigrid:        1
@@ -43,3 +43,5 @@ office:           3
 photoshop:        2
 english:          3
 spanish:          1
+coffeescript:     2
+nodejs:     2

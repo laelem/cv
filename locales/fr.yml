@@ -8,7 +8,7 @@ fr:
   header:
     job: Développeuse Web
     experience: + de 3 ans d'expérience
-    search_job: Recherche un poste dans les technologies Ruby on Rails
+    search_job: Recherche un poste de développement Symfony
     availability: Disponibilité immédiate
 
   nav:
@@ -30,7 +30,7 @@ fr:
     presentation: "Bienvenue sur mon CV en ligne. Je vous présente à travers ce site mon parcours professionnel, l'évaluation de mes compétences techniques ainsi qu'une description de quelques une de mes missions."
     pdf: "Vous avez également accès à une %{pdf_link} plus concise."
     pdf_label: version PDF
-    contact: "Si mon profil vous intéresse pour l'attribution d'un <strong>poste en CDI dans les tehnologies web Ruby aux environs de Lyon</strong>, merci de me contacter par mail à l'adresse suivante : %{email_link}"
+    contact: "Si mon profil vous intéresse pour l'attribution d'un <strong>poste en CDI avec le framework Symfony aux environs de Lyon</strong>, merci de me contacter par mail à l'adresse suivante : %{email_link}"
 
   values:
     - "Après <strong>plus de trois ans d'expérience</strong> professionnelle, j'ai pu intégrer de <strong>nombreuses entreprises</strong> et travailler avec des gens aux profils divers et variés."
@@ -44,7 +44,7 @@ fr:
       institution: 'I.U.T. Paris Descartes <br />I.U.T. de Montreuil (77)'
     -
       period: '2008'
-      degree: '<strong>Baccalauréat scientifique</strong> - Avec mention'
+      degree: '<strong>Baccalauréat scientifique</strong>'
       institution: Meaux (77)
 
 
@@ -61,9 +61,9 @@ fr:
         -
           title: Langages
           content:
+            php: PHP4 / PHP5
             ruby: Ruby
             python: Python
-            php: PHP4 / PHP5
             sql: SQL
             js_ajax: 'Javascript, Ajax'
             xml: XML
@@ -78,11 +78,12 @@ fr:
         -
           title: Frameworks
           content:
+            symfony: Symfony 1.4 / 2.1
             ror: Ruby on Rails
             sinatra: Sinatra
             django: Django
             ci_carbone: 'CodeIgniter, Carbone'
-            symfony: Symfony 1.4 / 2.1
+            nodejs: 'Node.js'
             zend: Zend Framework
         -
           title: Tests
@@ -105,6 +106,7 @@ fr:
             html5css3: HTML5 / CSS3
             haml: HAML
             sass_less: 'SCSS, Less'
+            coffeescript: 'CoffeeScript'
         -
           title: Librairies
           content:

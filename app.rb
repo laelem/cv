@@ -15,7 +15,7 @@ set :haml, format: :html5
 before do
   @skills = YAML.load_file('data/skills.yml')
   @config = YAML.load_file('config.yml')
-  @config['last_update'] = File.stat(".").mtime.strftime("%d/%m/%Y")
+  @config['last_update'] = "28/03/2014"
 end
 
 get '/' do
