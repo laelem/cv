@@ -1,47 +1,70 @@
-ruby:             4
-python:           2
-php:              4
-sql:              4
-xml:              2
-yml:              4
+windows: 2
+linux: 3
+unix_shell: 3
+apache: 2
+
+php: 4
+ruby: 4
+python: 2
+sql: 4
+js: 4
 java_c_cplusplus: 2
-windows_linux:    2
-unix_shell:       3
-apache:           2
-ror:              3
-sinatra:          2
-django:           2
-ci_carbone:       4
-symfony:          3
-zend:             1
-postgresql:       4
-mysql:            4
-mssql:            1
-wordpress:        3
-drupal_spip:      2
-html4css2:        5
-html5css3:        4
-haml:             5
-sass_less:        4
-js_ajax:          4
-jquery:           4
-bootstrap:        4
-flexigrid:        1
-smarty_twig:      1
-git:              4
-svn:              3
-redmine_mingle:   3
-mantis_bugreport: 4
-rspec:            3
-cucumber:         2
-heroku:           3
-factorygirl:      4
-faker:            4
-filezilla:        4
-teamviewer:       4
-office:           3
-photoshop:        2
-english:          3
-spanish:          1
-coffeescript:     2
-nodejs:     2
+
+mysql: 4
+postgresql: 4
+elasticsearch: 2
+mongodb: 1
+mssql: 1
+
+symfony: 4
+stripe: 3
+django: 2
+ror: 3
+codeigniter: 4
+sinatra: 2
+nodejs: 2
+zend: 1
+laravel: 1
+
+phpunit: 3
+rspec: 3
+cucumber: 2
+
+prismic: 3
+wordpress: 3
+drupal_spip: 2
+
+html_css: 4
+templating: 5
+styles: 4
+coffeescript: 2
+yml: 4
+xml: 2
+
+jquery: 4
+angular: 2
+react: 2
+bootstrap: 4
+foundation: 3
+flexigrid: 1
+
+git: 4
+svn: 3
+redmine:   5
+trello: 5
+mingle_mantis_bugreport: 4
+jira: 3
+
+apidocjs: 5
+zmq: 2
+heroku: 3
+factorygirl: 4
+faker: 4
+filezilla: 4
+teamviewer: 4
+
+office: 3
+photoshop: 2
+
+english: 3
+spanish: 1

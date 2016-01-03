@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
   font-weight: normal; }
 
 h1, h2 {
-  font-family: "Syncopate", Arial, Helvetica, FreeSans, sans-serif; }
+  font-family: "Play", Arial, Helvetica, FreeSans, sans-serif; }
 
 .main {
   width: 960px;
@@ -22,8 +22,8 @@ h1, h2 {
   color: white; }
   #header .main {
     position: relative;
-    padding-top: 2em;
-    padding-bottom: 1em; }
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
   #header h1 {
     font-size: 2.5em;
     padding: 0; }
@@ -82,7 +82,7 @@ h1, h2 {
   position: absolute;
   z-index: 9999;
   width: 100%;
-  font-family: "Syncopate", Arial, Helvetica, FreeSans, sans-serif;
+  font-family: "Play", Arial, Helvetica, FreeSans, sans-serif;
   font-size: 0.9em;
   text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #404040), color-stop(1, #1a1a1a));
@@ -98,23 +98,20 @@ h1, h2 {
     -webkit-box-shadow: 0 0 10px black;
     box-shadow: 0 0 10px black; }
   #nav ul {
-    padding: 0 2em;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    display: table; }
   #nav li {
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
     list-style-type: none; }
   #nav a {
     display: block;
-    line-height: 3em;
-    padding: 0.8em 1em;
+    font-size: 1.4em;
+    padding: 0.8em 1.5em;
     text-decoration: none;
-    color: #cccccc;
-    text-transform: lowercase; }
-    #nav a.two_lines {
-      line-height: 1.5em; }
+    color: #cccccc; }
     #nav a:hover {
       background-color: black;
       color: white; }
@@ -123,7 +120,7 @@ h1, h2 {
     color: white; }
 
 #contain {
-  margin-top: 60px;
+  margin-top: 50px;
   padding: 1em 0;
   background: white;
   -moz-box-sizing: border-box;
@@ -160,8 +157,7 @@ h1, h2 {
   font-size: 0.9em;
   line-height: 1.5em; }
   .section h2 {
-    font-size: 2em;
-    text-transform: lowercase; }
+    font-size: 2em; }
 
 .section > table, .rubric {
   margin-bottom: 1.5em; }
@@ -189,8 +185,10 @@ h1, h2 {
     border: none;
     padding: 0 1.5em;
     vertical-align: middle; }
-  #education table tr:first-child > td, #rub-career table tr:first-child > td {
+  #education table tr > td, #rub-career table tr > td {
     border-bottom: 1px solid #cccccc; }
+  #education table tr:last-child > td, #rub-career table tr:last-child > td {
+    border: none; }
   #education table .period, #rub-career table .period {
     width: 25%;
     text-align: center; }

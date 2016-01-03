@@ -8,7 +8,6 @@ url:
   ci_bootstrap:
     github: https://github.com/laelem/annuaire_bootstrap
   sample_app:
-    website: https://laelem-sampleapp-railstutorial.herokuapp.com
     github: https://github.com/laelem/sample_app
   shared_directory:
     website: http://laelem-shared-directory.herokuapp.com
@@ -16,6 +15,11 @@ url:
     doc: 'https://github.com/laelem/shared_directory#annuaire-partag%C3%A9'
   game_of_life:
     github: https://github.com/laelem/lifegame
+  othello:
+    github: https://github.com/laelem/othello
+  othello_network:
+    website: http://othello-network.herokuapp.com/
+    github: https://github.com/laelem/othello-network
   online_cv:
     github: https://github.com/laelem/cv
   rails_for_zombies: http://railsforzombies.org/
@@ -25,7 +29,6 @@ url:
     comundi: http://www.comundi.fr/
     strategies: http://www.strategies.fr/emploi-formation/formations-conferences-strategies/
     directions: http://directions.fr/Formations/
-  figaro: http://six-nations.sport24.com/
 
 path:
   cv_pdf: doc/cv_web.pdf

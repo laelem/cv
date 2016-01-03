@@ -1,6 +1,6 @@
 - experience = I18n.t :experience
 %section#experience.section.rubric
-  %h2= @titles[:experience].split.join('<br />')
+  %h2= @titles[:experience].split.join(' ')
   %nav
     %ul
       %li.link{data: {rub: "rub-career"}}>= experience[:career][:title]
@@ -62,8 +62,9 @@
                 %dt>= mission_lang[:methodo]
                 %dd>= mission[:methodo]
 
-              %dt>= mission_lang[:problems]
-              %dd>= mission[:problems]
+              - if mission[:problems]
+                %dt>= mission_lang[:problems]
+                %dd>= mission[:problems]
 
             .contain
               - if type == 'with_screen'
@@ -72,7 +73,7 @@
                     - Dir.glob(File.join(dir_screen, '*')).each do |screen|
                       %li
                         %img{src: screen.gsub('public/', ''),
-                          width: "407", height: "298", alt: @lang[:alt_screen]}
+                          width: "407", height: "298", alt: @lang[:alt_screen]}othello_network
               %ul
                 - mission[:content].each do |item|
                   %li= item
@@ -80,6 +81,23 @@
 
     - technology_watch = experience[:technology_watch][:content]
     %section#rub-technology_watch
+      %div
+        %h3= technology_watch[:othello_network][:title]
+        %aside
+          %a.button{href: @config['url']['othello_network']['github'], target: "_blank"}= @lang[:show_code]
+          %a.button{href: @config['url']['othello_network']['website'], target: "_blank"}= @lang[:visit]
+        %ul
+          - technology_watch[:othello_network][:content].each do |item|
+            %li= item
+
+      %div
+        %h3= technology_watch[:othello][:title]
+        %aside
+          %a.button{href: @config['url']['othello']['github'], target: "_blank"}= @lang[:show_code]
+        %ul
+          - technology_watch[:othello][:content].each do |item|
+            %li= item
+
       %div
         %h3= technology_watch[:online_cv][:title]
         %aside
@@ -104,7 +122,6 @@
         %h4= technology_watch[:sample_app][:subtitle]
         %aside
           %a.button{href: @config['url']['sample_app']['github'], target: "_blank"}= @lang[:show_code]
-          %a.button{href: @config['url']['sample_app']['website'], target: "_blank"}= @lang[:visit]
         %ul
           - technology_watch[:sample_app][:content].each do |item|
             %li= item

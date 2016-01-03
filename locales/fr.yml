@@ -7,9 +7,7 @@ fr:
 
   header:
     job: Développeuse Web
-    experience: + de 3 ans d'expérience
-    search_job: Recherche un poste de développement Symfony
-    availability: Disponibilité immédiate
+    experience: + de 5 ans d'expérience
 
   nav:
     intro: Introduction
@@ -30,12 +28,12 @@ fr:
     presentation: "Bienvenue sur mon CV en ligne. Je vous présente à travers ce site mon parcours professionnel, l'évaluation de mes compétences techniques ainsi qu'une description de quelques une de mes missions."
     pdf: "Vous avez également accès à une %{pdf_link} plus concise."
     pdf_label: version PDF
-    contact: "Si mon profil vous intéresse pour l'attribution d'un <strong>poste en CDI avec le framework Symfony aux environs de Lyon</strong>, merci de me contacter par mail à l'adresse suivante : %{email_link}"
+    contact: "Si mon profil vous intéresse pour l'attribution d'un <strong>poste en CDI aux environs de Lyon</strong>, merci de me contacter par mail à l'adresse suivante : %{email_link}"
 
   values:
-    - "Après <strong>plus de trois ans d'expérience</strong> professionnelle, j'ai pu intégrer de <strong>nombreuses entreprises</strong> et travailler avec des gens aux profils divers et variés."
-    - "Le web est un <strong>univers immense</strong> que je ne me lasse pas d’explorer. Je prends plaisir à parfaire ma culture dans les <strong>nouvelles technologies</strong> qui me fascinent par leur diversité. Les enjeux du web sont de plus en plus nombreux et j’ambitionne de participer à des <strong>projets innovants</strong>."
-    - "J’attends un environnement où je pourrais apprendre, créer, innover, partager, découvrir… car le web est avant tout une <strong>aventure humaine</strong> !"
+    - "Après <strong>plus de cinq ans d'expérience</strong> professionnelle, j'ai pu intégrer de <strong>nombreuses entreprises</strong> et travailler avec des gens aux profils divers et variés."
+    - "J'ambitionne aujourd'hui de travailler avec des gens qui ont à coeur de répondre aux besoins réels des internautes. Je souhaite ainsi mettre mon sens de l'innovation au service d'un <strong>web éthique et moderne</strong>."
+    - "Dans cette optique, j'ai appris au fil de mon parcours à évaluer au mieux les technologies actuelles et à assurer au quotidien une <strong>veille technologique optimale</strong>."
 
   education:
     -
@@ -49,74 +47,79 @@ fr:
 
 
   skills:
-    development:
-      title: Développement
+    back:
+      title: Back office
       content:
         -
           title: Systèmes
           content:
-            windows_linux: 'Windows, Linux'
+            linux: Linux
             unix_shell: Shell Unix
             apache: Serveur web Apache
+            windows: Windows
         -
           title: Langages
           content:
-            php: PHP4 / PHP5
+            php: PHP5
+            sql: SQL
             ruby: Ruby
             python: Python
-            sql: SQL
-            js_ajax: 'Javascript, Ajax'
-            xml: XML
-            yml: YAML
-            java_c_cplusplus: 'Java, C, C++'
+            js: Javascript
+            java_c_cplusplus: 'Java, C, C++, Haskell'
         -
-          title: Base de données
+          title: Modélisation des données
           content:
-            postgresql: 'PostgreSQL, PgAdmin'
-            mysql: 'MySQL, PhpMyAdmin'
+            mysql: MySQL
+            postgresql: PostgreSQL
+            elasticsearch: Elasticsearch
+            mongodb: MongoDB
             mssql: MS-SQL
         -
-          title: Frameworks
+          title: "Frameworks et API"
           content:
-            symfony: Symfony 1.4 / 2.1
+            symfony: Symfony 2
+            codeigniter: 'CodeIgniter'
+            zend: Zend Framework
+            laravel: Laravel
+            stripe: Stripe (API pour le paiement)
+            django: Django
             ror: Ruby on Rails
             sinatra: Sinatra
-            django: Django
-            ci_carbone: 'CodeIgniter, Carbone'
             nodejs: 'Node.js'
-            zend: Zend Framework
         -
-          title: Tests
+          title: Tests unitaires et fonctionnels
           content:
+            phpunit: PHPUnit
             rspec: Rspec
             cucumber: CuCumber
         -
           title: CMS
           content:
+            prismic: Prismic
             wordpress: Wordpress
             drupal_spip: 'Drupal, Spip'
 
-    integration:
-      title: Intégration
+    front:
+      title: Front office
       content:
         -
-          title: Langages
+          title: Balisage et style
           content:
-            html4css2: HTML4 / CSS2
-            html5css3: HTML5 / CSS3
-            haml: HAML
-            sass_less: 'SCSS, Less'
+            html_css: HTML5 / CSS3
+            templating: "twig, haml, jade"
+            styles: 'compass, sass, less, stylus'
             coffeescript: 'CoffeeScript'
+            yml: Yaml
+            xml: XML
         -
           title: Librairies
           content:
             jquery: Jquery
+            angular: AngularJS
+            react: ReactJS
             bootstrap: Twitter Bootstrap
+            foundation: Foundation
             flexigrid: Flexigrid
-        -
-          title: Templating
-          content:
-            smarty_twig: 'Smarty, Twig'
 
     other:
       title: Divers
@@ -124,16 +127,20 @@ fr:
         -
           title: Versionning
           content:
-            git: Git
+            git: "Git, gitlab"
             svn: SVN
         -
           title: Gestion de projet
           content:
-            redmine_mingle: 'Redmine, Mingle'
-            mantis_bugreport: 'Mantis, Bugreport'
+            redmine: 'Redmine'
+            trello: Trello
+            mingle_mantis_bugreport: 'Mingle, Mantis, Bugreport'
+            jira: Jira
         -
           title: Outils
           content:
+            apidocjs: ApiDocJS
+            zmq: ZeroMQ
             heroku: Heroku
             factorygirl: FactoryGirl
             faker: Faker
@@ -155,6 +162,10 @@ fr:
       title: Parcours
       content:
         -
+          period: "Avril 2014 - Aujourd'hui"
+          society: "<strong>Digischool / Kreactive</strong><br />Développement de sites et d'applications dans le domaine éducatif<br />Poste : Développeuse Web PHP"
+          place: Lyon 7
+        -
           period: 'Juillet 2010 - Octobre 2013'
           society: '<strong>Globalis media systems</strong> - SSII<br />Poste : Développeuse Web PHP'
           place: Paris
@@ -173,6 +184,20 @@ fr:
         methodo: Méthodologie
         problems: Difficultés rencontrées
       content:
+        digischool:
+          nav_title: Digischool / Kreactive
+          nav_subtitle: Éducatif
+          title: Développement de nombreux sites et modules sous Symfony
+          app_type: Front et Back office
+          team: 'Chefs de projet, sysadmin, dévelopeurs front et back, intégrateurs, graphistes'
+          technical_environnement: 'Lamp, Symfony 2'
+          technologies: 'Symfony 2, Git, Curl'
+          content:
+            - "Développement d'un webservice chargé de gérer et valider des paiements provenant de multiples plateformes, s'appuyant sur l'API Stripe."
+            - "Développement d'une API REST mettant à disposition des contenus éducatifs : authentification, gestion fine des accès selon les rôles, documentation exhaustive avec apidocjs et tests fonctionnels avec phpunit."
+            - "Internationalisation d'un ensemble de sites sous Symfony"
+            - "Création de nombreux bundles Symfony pour la gestion de back office, d'articles, de croppage d'images, de slideshow, de menus déroulant, etc."
+            - "Développement d'un module de tchat temps réel via ZeroMQ avec modération des messages en amont côté back office"
         bouygues:
           nav_title: Bouygues Télécom
           nav_subtitle: Télécommunications
@@ -405,6 +430,16 @@ fr:
     technology_watch:
       title: Veilles technologiques
       content:
+        othello_network:
+          title: Jeu Othello en réseau - Août 2014
+          content:
+            - "Développé avec nodejs, le framework express et coffeescript"
+
+        othello:
+          title: Jeu Othello mode solo - Juillet 2014
+          content:
+            - "Développé en javascript"
+
         online_cv:
           title: Mon CV en ligne - Février 2014
           content:

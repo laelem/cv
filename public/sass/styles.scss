@@ -21,8 +21,8 @@ h1, h2{
   color: white;
   .main{
     position: relative;
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
   h1{
     font-size: 2.5em;
@@ -97,24 +97,20 @@ h1, h2{
     @include box_shadow(0, 0, 10px, black);
   }
   ul{
-    padding: 0 2em;
     @include box_sizing;
+    display: table;
   }
   li{
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
     list-style-type: none;
   }
   a{
     display: block;
-    line-height: 3em;
-    padding: 0.8em 1em;
+    font-size: 1.4em;
+    padding: 0.8em 1.5em;
     text-decoration: none;
     color: lighten(black, 80%);
-    text-transform: lowercase;
-    &.two_lines{
-      line-height: 1.5em;
-    }
     &:hover{
       background-color: black;
       color: white;
@@ -127,7 +123,7 @@ h1, h2{
 }
 
 #contain{
-  margin-top: 60px;
+  margin-top: 50px;
   padding: 1em 0;
   background: white;
   @include box_sizing;
@@ -164,7 +160,6 @@ h1, h2{
   padding-left: 2.5em;
   h2{
     font-size: 2em;
-    text-transform: lowercase;
   }
   font-size: 0.9em;
   line-height: 1.5em;
@@ -200,8 +195,11 @@ h1, h2{
     padding: 0 1.5em;
     vertical-align: middle;
   }
-  tr:first-child > td{
+  tr > td{
     border-bottom: 1px solid $gris_80;
+  }
+  tr:last-child > td{
+    border: none;
   }
   .period{
     width: 25%;

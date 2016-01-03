@@ -1,15 +1,8 @@
 en:
-  # common:
-  #   show_code: Source code
-  #   visit: Visit website
-  #   doc: Documentation
-  #   alt_screen: missing image
 
   header:
     job: Web developer
-    experience: 3 + years experience
-    search_job: Looking for a job with Symfony
-    availability: Immediate availability
+    experience: 5 + years experience
 
   nav:
     intro: Introduction
