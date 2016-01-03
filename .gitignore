@@ -13,3 +13,4 @@ database.yml
 .DS_Store
 .idea
 .secret
+.sass-cache/
