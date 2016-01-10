@@ -3,7 +3,7 @@ linux: 3
 unix_shell: 3
 apache: 2
 
-php: 4
+php: 5
 ruby: 4
 python: 2
 sql: 4
@@ -16,7 +16,7 @@ elasticsearch: 2
 mongodb: 1
 mssql: 1
 
-symfony: 4
+symfony: 5
 stripe: 3
 django: 2
 ror: 3
