@@ -31,7 +31,7 @@ url:
     directions: http://directions.fr/Formations/
 
 path:
-  cv_pdf: doc/cv_web.pdf
+  cv_pdf: doc/cv.pdf
 
 developed_with:
   - Sinatra
