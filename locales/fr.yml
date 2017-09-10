@@ -7,7 +7,7 @@ fr:
 
   header:
     job: Développeuse Web
-    experience: + de 5 ans d'expérience
+    experience: + de 6 ans d'expérience
 
   nav:
     intro: Introduction
@@ -31,7 +31,7 @@ fr:
     contact: "Si mon profil vous intéresse pour l'attribution d'un <strong>poste en CDI aux environs de Lyon</strong>, merci de me contacter par mail à l'adresse suivante : %{email_link}"
 
   values:
-    - "Après <strong>plus de cinq ans d'expérience</strong> professionnelle, j'ai travaillé avec de <strong>nombreuses entreprises</strong> et des gens aux profils divers et variés."
+    - "Après <strong>plus de 6 ans d'expérience</strong> professionnelle, j'ai travaillé avec de <strong>nombreuses entreprises</strong> et des gens aux profils divers et variés."
     - "J'ambitionne aujourd'hui de travailler avec des gens qui ont à coeur de répondre aux besoins réels des internautes. Je souhaite ainsi mettre mon sens de l'innovation au service d'un <strong>web éthique et moderne</strong>."
     - "Dans cette optique, j'ai appris au fil de mon parcours à évaluer au mieux les technologies actuelles et à assurer au quotidien une <strong>veille technologique optimale</strong>."
 
@@ -51,17 +51,20 @@ fr:
       title: Back office
       content:
         -
-          title: Systèmes
+          title: Systèmes & Réseaux
           content:
-            linux: Linux
-            unix_shell: Shell Unix
+            docker: Docker
+            bash: Bash
             apache: Serveur web Apache
+            linux: Linux
+            mac: Mac OS
             windows: Windows
         -
           title: Langages
           content:
-            php: PHP5
-            sql: SQL
+            php7: PHP 7
+            php5: PHP 5
+            sql: SQL + requêtes sur du jsonb
             ruby: Ruby
             python: Python
             js: Javascript
@@ -77,7 +80,8 @@ fr:
         -
           title: "Frameworks et API"
           content:
-            symfony: Symfony 2
+            symfony3: Symfony 3
+            symfony2: Symfony 2
             codeigniter: 'CodeIgniter'
             zend: Zend Framework
             laravel: Laravel
@@ -109,7 +113,6 @@ fr:
             templating: "twig, haml, jade"
             styles: 'compass, sass, less, stylus'
             coffeescript: 'CoffeeScript'
-            yml: Yaml
             xml: XML
         -
           title: Librairies
@@ -132,25 +135,25 @@ fr:
         -
           title: Gestion de projet
           content:
+            scrum_agilite: SCRUM, agilité
+            jira: Jira
             redmine: 'Redmine'
             trello: Trello
             mingle_mantis_bugreport: 'Mingle, Mantis, Bugreport'
-            jira: Jira
         -
           title: Outils
           content:
+            postman: Postman
             apidocjs: ApiDocJS
             zmq: ZeroMQ
             heroku: Heroku
             factorygirl: FactoryGirl
             faker: Faker
-            filezilla: Filezilla
-            teamviewer: Teamviewer
         -
           title: Logiciels de traitement
           content:
-            office: Suite Office
             photoshop: 'Photohop, Gimp'
+            office: Suite Office
         -
           title: Langues étrangères
           content:
@@ -190,8 +193,8 @@ fr:
           title: Développement de nombreux sites et modules sous Symfony
           app_type: Front et Back office
           team: 'Chefs de projet, sysadmin, dévelopeurs front et back, intégrateurs, graphistes'
-          technical_environnement: 'Lamp, Symfony 2'
-          technologies: 'Symfony 2, Git, Curl'
+          technical_environnement: 'Lamp, Symfony 2/3'
+          technologies: 'Symfony 2/3, PHP 5/7, Git, Postman, Docker'
           content:
             - "Développement d'un webservice chargé de gérer et valider des paiements provenant de multiples plateformes, s'appuyant sur l'API Stripe."
             - "Développement d'une API REST mettant à disposition des contenus éducatifs : authentification, gestion fine des accès selon les rôles, documentation exhaustive avec apidocjs et tests fonctionnels avec phpunit."
@@ -516,9 +519,7 @@ fr:
       title: "Participation au sein d'un orchestre à cordes"
       duration: 2 ans
     -
-      title: Bande dessinée
-    -
-      title: Cinéma
+      title: Bande dessinée - Mangas - Animés - Cinéma
 
   footer:
     last_update: "Dernière mise à jour : %{date}"

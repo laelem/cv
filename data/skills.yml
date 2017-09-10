@@ -1,9 +1,12 @@
+docker: 2
 windows: 2
 linux: 3
-unix_shell: 3
-apache: 2
+bash: 3
+apache: 3
+mac: 3
 
-php: 5
+php7: 3
+php5: 5
 ruby: 4
 python: 2
 sql: 4
@@ -16,7 +19,8 @@ elasticsearch: 2
 mongodb: 1
 mssql: 1
 
-symfony: 5
+symfony3: 3
+symfony2: 5
 stripe: 3
 django: 2
 ror: 3
@@ -38,7 +42,6 @@ html_css: 4
 templating: 5
 styles: 4
 coffeescript: 2
-yml: 4
 xml: 2
 
 jquery: 4
@@ -50,18 +53,19 @@ flexigrid: 1
 
 git: 4
 svn: 3
+
+scrum_agilite: 5
 redmine:   5
 trello: 5
 mingle_mantis_bugreport: 4
-jira: 3
+jira: 4
 
+postman: 5
 apidocjs: 5
 zmq: 2
 heroku: 3
 factorygirl: 4
 faker: 4
-filezilla: 4
-teamviewer: 4
 
 office: 3
 photoshop: 2
